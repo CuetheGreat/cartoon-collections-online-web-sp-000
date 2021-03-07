@@ -5,9 +5,7 @@ def roll_call_dwarves(collection)
 end
 
 def summon_captain_planet(collection)
-  new_collection =[]
-  collection.each { |element| new_collection << "#{element.capitalize}!"}
-  new_collection
+  collection.map { |element| "#{element.capitalize}!"}
 end
  
 def long_planeteer_calls(collection)
