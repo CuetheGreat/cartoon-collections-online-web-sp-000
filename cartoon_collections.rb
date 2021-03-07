@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(collection)
   new_collection =[]
-  collection.each { |element| new_collection << "#{element.upcase}!"}
+  collection.each { |element| new_collection << "#{element.capitalize}!"}
   new_collection
 end
  
